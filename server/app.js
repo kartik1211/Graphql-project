@@ -9,7 +9,7 @@ const cors = require('cors');
 // allow cross-origin-requests
 app.use(cors());
 
-mongoose.connect('mongodb+srv://admin:test123@cluster0-hb7bd.mongodb.net/test?retryWrites=true&w=majority', {
+mongoose.connect('add_your_mongo_uri', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
    }).then(() => {
